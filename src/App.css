@@ -1,0 +1,25 @@
+#app {
+  background-image:      url('assets/images/my-little-pony-friendship-is-magic.jpg');
+  background-size:       cover;
+  background-attachment: fixed;
+  background-position:   center;
+  background-repeat:     no-repeat;
+}
+
+#image {
+  animation: intensify 0.2s infinite;
+}
+
+@keyframes intensify {
+    0% { transform: translate( 0px,  0px) rotate( 0deg); }
+   10% { transform: translate(-1px, -2px) rotate(-1deg); }
+   20% { transform: translate(-3px,  0px) rotate( 1deg); }
+   30% { transform: translate( 3px,  2px) rotate( 0deg); }
+   40% { transform: translate( 1px, -1px) rotate( 1deg); }
+   50% { transform: translate(-1px,  2px) rotate(-1deg); }
+   60% { transform: translate(-3px,  1px) rotate( 0deg); }
+   70% { transform: translate( 3px,  1px) rotate(-1deg); }
+   80% { transform: translate(-1px, -1px) rotate( 1deg); }
+   90% { transform: translate( 1px,  2px) rotate( 0deg); }
+  100% { transform: translate( 0px,  0px) rotate(-1deg); }
+}
